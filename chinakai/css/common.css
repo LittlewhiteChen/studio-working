@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2015-10-13 13:19:33
+ * @version $Id$
+ */
+
+/*公共宽度*/
+.wrap{width:980px;margin:0 auto;}
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+
+/*头部*/
+#top{height:88px;line-height:88px;}
+#top hgroup{margin-left:45px;margin-top:18px;}
+#top hgroup h1{font:26px "Microsoft YaHei";}
+#top hgroup h2{font:12px "";color:#999999;}
+#top menu{line-height:88px;}
+#top menu li{float:left;margin-right:20px;}
+#top menu li i{display:inline-block;vertical-align:sub;width:16px;height:16px;background:url(../img/top-bg.png) no-repeat left 1px scroll;padding:0 5px;}
+#top menu li .collect{background-position:0px -13px}
+
+/*导航条*/
+nav{height:34px;background:#910000;}
+nav ul{margin-left:20px;}
+nav li{float:left;color:#FFF;font:14px "Microsoft YaHei";padding:0 12px;line-height:34px;cursor: pointer;}
+
+/*主要内容*/
+.sectionLeft{width:534px;}
+.sectionLeft article{margin-bottom:20px;}
+.sectionLeft header{position:relative;height:34px;border-bottom:1px solid #e5e5e5;}
+.sectionLeft header h2{line-height:34px;font-size:14px;}
+.sectionLeft header b{position:absolute;top:0;right:0;display:inline-block;height:34px;vertical-align:middle;line-height:34px;padding:0 5px;font-weight:100;cursor:pointer;}
+.sectionLeft header b:hover{color:#910000;}
+.sectionLeft .companyBody h3{height:50px;line-height:50px;color:#910000;}
+.sectionLeft .companyBody p{line-height:28px;text-indent:2em;font-size:12px}
+.sectionLeft .companyBody li{position:relative;line-height:24px;list-style-type:disc;list-style-position:inside;}
+.sectionLeft .companyBody li time{position:absolute;top:0;right:0;display:inline-block;*display:inline;*zoom:1;height:24px;line-height:24px;color:#910000;padding:0 5px;}
+
+/*主要类容右部*/
+.sectionRight{width:430px;}
+.sectionRight .imgTab{position:relative;width:430px;height:220px;overflow:hidden;margin-top:10px;}
+.sectionRight .imgTab ul{width:2150px;height:220px;position:absolute;top:0;left:0;}
+.sectionRight .imgTab ul li{float:left;}
+.sectionRight .imgTab .imgTabCtrl{position:absolute;bottom:0;right:0;height:22px;line-height:22px;}
+.sectionRight .imgTab .imgTabCtrl a{width:16px;height:16px;cursor:pointer;line-height:16px;vertical-align:center;text-align:center;background:#969998;color:#FFF;float:left;margin:0 2px;}
+.sectionRight .imgTab .imgTabCtrl a:hover{background:#f76c48;}
+.sectionRight .imgTab .imgTabCtrl .active{width:26px;height:16px;background:#f76c48;}
+.sectionRight .info hgroup{height:50px;line-height:50px;background:#FFF url(../img/service-bg1.png) no-repeat left bottom;}
+.sectionRight .info h2{float:left;font:14px "Microsoft YaHei";line-height:50px;}
+.sectionRight .info .enVersion{color:#910000;margin-left:12px;}
+.sectionRight .info .enVersion:first-letter{color:#b21616;font-size:18px}
+.sectionRight .serviceCont{padding-top:18px;background:#FFF url(../img/service-bg2.png) no-repeat left top;margin-top:2px;}
+.sectionRight .serviceCont img{float:left;width:74px;margin-right:10px;}
+.sectionRight .serviceCont dl{float:right;width:346px;height:70px;line-height:22px;padding-top:5px;}
+.sectionRight .serviceCont dl dt{display:inline-block;*display:inline;*zoom:1;}
+.sectionRight .serviceCont dl dd{display:inline-block;*display:inline;*zoom:1;font-family:"Monaco";}
+.sectionRight .serviceCont dl .tips{margin-left:62px;}
+.showImg{height:104px;border:1px solid #e5e5e5;line-height:104px;margin-bottom:5px;}
+.showImg a{display:inline-block;*display:inline;*zoom:1;height:80px;width:130px;margin:0 14px;}
+footer{position:relative;height:87px;border-top:2px solid #e5e5e5;padding-top:12px;}
+footer p{line-height:24px;}
+footer p span{margin-right:30px;}
+footer .logoBottom{position:absolute;bottom:0;right:0;height:70px;line-height:70px;}
