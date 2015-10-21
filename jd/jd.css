@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+/**
+ *
+ * @authors kay chen (you@example.org)
+ * @date    2014-11-25 14:32:15
+ * @version $Id$
+ */
+
+
+body {
+    padding: 0;
+    font-size: 10pt;
+}
+
+.nav {
+	margin-top: 70px;
+    height: 44px;
+    border-bottom: 2px solid #B1191A;
+}
+.navCont{width:1210px;height:44px;margin: 0 auto;}
+.toptitle h3 {
+    width: 210px;
+    height: 45px;
+    line-height: 45px;
+    text-align: left;
+    font-size: 11pt;
+    font-weight: normal;
+    color: #FFF;
+    background: #B1191A;
+    text-indent: 10px;
+
+}
+.navBar{width:1210px;margin: 0 auto;}
+
+.topmenu {
+
+    display: block;
+    width: 210px;
+
+    border-top: none;
+    background: #C81623;
+
+
+}
+
+.topmenu li {
+    width: 210px;
+    height: 31px;
+    line-height: 31px;
+    font-size: 11pt;
+    list-style-type: none;
+    text-align: left;
+    text-indent: 10px;
+    z-index: 3;
+	color:#FFF;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+}
+.topmenu li a {color:#FFF;}
+.topmenu li:hover .topmenu li a{color:#C81623;}
+.topmenu li a:hover {color:#C81623;}
+
+
+.topmenu .lihover {
+    border-right: 0;
+   /* box-shadow: 0 0 3px #DDD;
+    -moz-box-shadow: 0 0 8px #DDD;
+    -webkit-box-shadow: 0 0 8px #DDD;*/
+    background-image: none;
+    background: #F7F7F7;
+    height: 31px;
+    color:#C81623;
+}
+
+.topmenu .lihover .submenu {
+    display: block;
+}
+
+.topmenu .lihover span {
+    background: white;
+    display: inline-block;
+    z-index: 20;
+    width: 20px;
+    height: 30px;
+    float: right;
+}
+
+
+/* 实现苏宁的导航效果 */
+
+.topmenu li b {
+    display: none
+}
+
+.topmenu .lihover b {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 10pt
+}
+
+.submenu {
+    display: none;
+    width: 715px;
+    left: 209px;
+    position: absolute;
+    top:0px;
+    border: 1px solid #DDD;
+    z-index: 4;
+    background: #F7F7F7;
+    box-shadow: 0 0 8px #DDD;
+    -moz-box-shadow: 0 0 8px #DDD;
+    -webkit-box-shadow: 0 0 8px #DDD;border-left:none;
+}
+
+.leftdiv {
+    float: left;
+    width: 490px;
+    margin: 5px
+}
+
+.rightdiv {
+    float: left;
+    width: 200px;
+    margin: 5px
+}
+
+.leftdiv dl {
+    display: block;
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+
+.leftdiv dl dt {
+    display: block;
+    float: left;
+    width: 64px;
+    text-align: right;
+    height: 17px;
+    line-height: 17px;
+    padding-right: 6px
+}
+
+.leftdiv dl dt a {
+    color: #e4393c;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 10pt
+}
+
+.leftdiv dl dd {
+    display: block;
+    overflow: hidden
+}
+
+.leftdiv dl dd a {
+    display: block;
+    float: left;
+    border-left: 1px solid #CCC;
+    color: #737373;
+    font-size: 9pt;
+    padding: 0 5px;
+    height: 12px;
+    line-height: 12px;
+    margin: 3px 0
+}
+
+.rightdiv dl dd {
+    margin: 3px 0;
+}
+
+.rightdiv dl dt {
+    color: #e4393c;
+    font-weight: bold;
+    font-size: 10pt
+}
+
+.rightdiv dl dd a {
+    font-size: 9pt;
+    color: #737373;
+    line-height: 22px
+}
+
+.rightdiv dl dd a:hover {
+    color: #737373;
+    font-weight: normal
+}
+
+.rightPic {
+    position: relative;
+    right: -5px;
+    bottom: -3px;
+}

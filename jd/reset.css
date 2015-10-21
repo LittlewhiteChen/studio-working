@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/*
+ * @authors kay chen (you@example.org)
+ * @date    2015-10-20 17:58:24
+ * @version $Id$
+ */
+
+/*reset*/
+
+/*页面配置*/
+body{color:#000;font-family:"Microsoft YaHei","Monaco","微软雅黑","宋体",Arial,sans-serif;font-size:12px;}
+body,html{height:100%;width:100%;}
+
+/*链接a*/
+a{}
+a:link{text-decoration:none;}
+a:visited{color:#aaa;}
+a:hover{color:#C81623;}
+a:active{color:#FF4200;}
+a:focus{outline:none;}
+:focus{outline:0 none;}
+
+/*标题*/
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+h1{font-size:34px;}
+h2{font-size:26px;}
+h3{font-size:18px;}
+h4{font-size:16px;}
+h5{font-size:14px;}
+h6{font-size:12px;}
+
+/*以上需要使用的时候根据项目需求来配置*/
+
+/*-------------------------------------------------------------------------------------------*/
+
+/*全局配置*/
+html{border:0 none;margin:0;padding:0;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+header,section,hgroup,menu,nav,article,aside,details,figcaption,figure,dialog,footer{display:block;margin:0;padding:0;}
+
+/*容器域*/
+fieldset{border:0;}
+img,a img{border:0 none;}
+
+/*列表*/
+li{list-style:none;}
+
+/*表单form*/
+input,label,img,th,select{vertical-align:middle;}
+input,select,textarea{border:0 none;outline:medium none;}
+textarea{resize:none;}
+button{outline:medium none;cursor:pointer;}
+
+/*table*/
+table{border-spacing:0;border-collapse:collapse;}
+caption,th,td{font-weight:normal;}
+table,th,td{vertical-align:middle;}
+
+/*字体font*/
+address,caption,cite,code,dfn,em,strong,th,var{font-weight:normal;font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+pre{white-space:pre-wrap;word-wrap:break-word;}
+i,em,cite,b{font-style:normal;}
+
+/*引用*/
+blockquote::before,blockquote::after,q::before,q::after{content:"";}
+blockquote{color:#666;font-style:italic;margin:1.5em;}
+
+/*float*/
+.clear::after{clear:both;content:".";display:block;height:0;visibility:hidden;font-size:0;}
+.clear{*zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+
+/*快捷方法*/
+.posA{position:absolute;}
+.posR{position:relative;}
+.oh{overflow:hidden;}
+.db{display:block;}
+.dib{display:inline-block;}
+.dn{display:none;}
+.vm{vertical-align:middle;}
+.vt{vertical-align:top;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.fb{font-weight:bold;}
+.fn{font-weight:normal;}
+.cp{cursor:pointer;}
+.bor{border:1px solid #000;}
+
+/*padding*/
+.pad5{padding:5px;}
+.pad10{padding:10px;}
+.pad15{padding:15px;}
+.pad20{padding:20px;}
+.padl7{padding-left:7px;}
+.padl5{padding-left:5px;}
+.padl10{padding-left:10px;}
+.padl15{padding-left:15px;}
+.padl20{padding-left:20px;}
+.padr5{padding-right:5px;}
+.padr10{padding-right:10px;}
+.padr15{padding-right:15px;}
+.padr20{padding-right:20px;}
+.padt5{padding-top:5px;}
+.padt10{padding-top:10px;}
+.padt15{padding-top:15px;}
+.padt20{padding-top:20px;}
+.padb5{padding-bottom:5px;}
+.padb10{padding-bottom:10px;}
+.padb15{padding-bottom:15px;}
+.padb20{padding-bottom:20px;}
+.padlr5{padding:0 5px;}
+.padlr10{padding:0 10px;}
+.padlr15{padding:0 15px;}
+.padlr20{padding:0 20px;}
+.padtb5{padding:5px 0;}
+.padtb10{padding:10px 0;}
+.padtb15{padding:15px 0;}
+.padtb20{padding:20px 0;}
+/*margin*/
+.ma{margin:0 auto;}
+.mar5{margin:5px;}
+.mar10{margin:10px;}
+.mar15{margin:15px;}
+.mar20{margin:20px;}
+.marlr5{margin:0 5px;}
+.marlr10{margin:0 10px;}
+.marlr15{margin:0 15px;}
+.marlr20{margin:0 20px;}
+.martb5{margin:5px 0;}
+.martb10{margin:10px 0;}
+.martb15{margin:15px 0;}
+.martb20{margin:20px 0;}
+.marl5{margin-left:5px;}
+.marl10{margin-left:10px;}
+.marl15{margin-left:15px;}
+.marl20{margin-left:20px;}
+.marr5{margin-right:5px;}
+.marr10{margin-right:10px;}
+.marr15{margin-right:15px;}
+.marr20{margin-right:20px;}
+.mart5{margin-top:5px;}
+.mart10{margin-top:10px;}
+.mart15{margin-top:15px;}
+.mart20{margin-top:20px;}
+.marb5{margin-bottom:5px;}
+.marb10{margin-bottom:10px;}
+.marb15{margin-bottom:15px;}
+.marb20{margin-bottom:20px;}
+
+/*color*/
+.cor1,.cor1 a{color:#00a1f1;}
+.cor2,.cor2 a{color:#333;}
+.cor3,.cor3 a{color:#666;}
+.cor4,.cor4 a{color:#ffcb0b;}
+.cor5,.cor5 a{color:#0a59ac;}
+.cor7,.cor7 a{color:#FF2832;}
+.black,.black a{color:#000;}
+.white,.white a{color:#fff;}
+.blue,.blue a{color:#004499;}
+.gray,.gray a,a.gray{color:#999;}
+.red,.red a,a.red{color:red;}
+.green,.green a,a.green{color:#0e774a;}
+
+/*响应式布局*/
+@media screen and (max-width:1679px){
+    .span1{width:103px;}
+}
+@media screen and (min-width:1679px){
+    .span1{width:124px;}
+}
